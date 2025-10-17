@@ -1,19 +1,26 @@
-🏫 Kids School Website
+---
 
-A fully responsive and modern educational website for Kids School, built using HTML and CSS.
+# 🏫 Kids School Website
+
+A fully responsive and modern educational website for **Kids School**, built using **HTML** and **CSS**.
 This website showcases the school’s curriculum, facilities, and stories while maintaining a fun, colorful, and engaging design suitable for a children’s learning platform.
 
-🌐 Live Preview
+---
 
+## 🌐 Live Preview
 
-👉 Live Demo : https://georgeblaize.github.io/Kids-School/
+👉 **Live Demo:** [https://georgeblaize.github.io/Kids-School/](https://georgeblaize.github.io/Kids-School/)
 
-📘 Project Overview
+---
 
-The Kids School Website is designed to represent a joyful, creative, and professional online presence for a school.
+## 📘 Project Overview
+
+The **Kids School Website** is designed to represent a joyful, creative, and professional online presence for a school.
 It includes essential sections like navigation, hero banner, curriculum highlights, school stories, and contact information — all with a child-friendly visual theme.
 
-🎨 Features
+---
+
+## 🎨 Features
 
 ✅ Responsive layout — adapts perfectly to all screen sizes (desktop, tablet, mobile)
 ✅ Clean and modern design with playful colors
@@ -23,15 +30,22 @@ It includes essential sections like navigation, hero banner, curriculum highligh
 ✅ Footer with quick links and social icons
 ✅ Fully static (no JavaScript required)
 
-🧱 Technologies Used
-Technology	Purpose
-HTML5	Structure and content
-CSS3	Styling, layout, and responsiveness
-Flexbox & CSS Grid	Responsive and organized layout
-Custom Properties (CSS Variables)	Easy color and theme management
+---
 
+## 🧱 Technologies Used
 
-🗂️ Folder Structure
+| Technology                            | Purpose                             |
+| ------------------------------------- | ----------------------------------- |
+| **HTML5**                             | Structure and content               |
+| **CSS3**                              | Styling, layout, and responsiveness |
+| **Flexbox & CSS Grid**                | Responsive and organized layout     |
+| **Custom Properties (CSS Variables)** | Easy color and theme management     |
+
+---
+
+## 🗂️ Folder Structure
+
+```
 kids-school-website/
 │
 ├── index.html              # Main HTML file
@@ -54,89 +68,96 @@ kids-school-website/
 │   ├── google+.png
 │   └── (other assets as needed)
 └── README.md               # Project documentation
+```
 
-🧩 Sections Breakdown
-🧭 Header / Navbar
+---
 
-Displays the school logo and navigation links
+## 🧩 Sections Breakdown
 
-Includes a Contact button and hamburger menu for small screens
+### 🧭 Header / Navbar
 
-Active link color-coded by section
+* Displays the school logo and navigation links
+* Includes a **Contact** button and **hamburger menu** for small screens
+* Active link color-coded by section
 
-🎓 Hero Section
+### 🎓 Hero Section
 
-Welcoming introduction with tagline and CTA ("Enroll Now")
+* Welcoming introduction with tagline and **Enroll Now** button
+* Kid-themed hero illustration
 
-Kid-themed image illustration
+### 📰 Marquee
 
-📰 Marquee
+* Smooth scrolling announcement banner for updates and notices
 
-Smooth scrolling announcement banner for updates and notices
+### 📚 Standard Curriculum
 
-📚 Standard Curriculum
+* Three cards: *Kinder*, *Elementary*, *Middle*
+* Gradient backgrounds and “Read More” links
+* Arrow icons for future slider functionality
 
-Three card sections: Kinder, Elementary, Middle
+### 🧒 Our Stories
 
-Gradient backgrounds and “Read More” buttons
+* Featured story with image and details
+* Four smaller story cards with dates and headlines
 
-Arrow icons for future slider functionality
+### 🦋 Footer
 
-🧒 Our Stories
+* Includes school info, quick links, and social media icons
 
-Featured story with image and description
+---
 
-Four smaller story cards with publish date and title
-
-🦋 Footer
-
-Includes school info, quick links, and social media icons
-
-📱 Responsive Design
+## 📱 Responsive Design
 
 The website is fully responsive and optimized for:
 
-💻 Desktops: 1024px and above
+* 💻 **Desktops:** 1024px and above
+* 📱 **Tablets & Mobiles:** below 900px (menu collapses, layout stacks vertically)
+* 📞 **Small Devices:** below 520px (some story cards hidden for better readability)
 
-📱 Tablets & Mobiles: below 900px (menu collapses, layout stacks vertically)
+---
 
-📞 Small Devices: below 520px (some story cards hidden for better readability)
+## 🖼️ Preview
 
-🖼️ Preview
-Desktop View	Mobile View
+### 🖥️ Desktop View
 
-	<img width="2490" height="5326" alt="georgeblaize github io_Kids-School_ Desktop" src="https://github.com/user-attachments/assets/77ac9b3f-fdbf-40df-b0ad-7751eff5dc23" />
+<img width="900" alt="Kids School Desktop Preview" src="https://github.com/user-attachments/assets/77ac9b3f-fdbf-40df-b0ad-7751eff5dc23" />
 
-<img width="892" height="8372" alt="georgeblaize github io_Kids-School_Mobile" src="https://github.com/user-attachments/assets/0987c552-b910-4e8e-b873-08c3366aa513" />
+### 📱 Mobile View
 
-(Replace with actual screenshots if available.)
+<img width="350" alt="Kids School Mobile Preview" src="https://github.com/user-attachments/assets/0987c552-b910-4e8e-b873-08c3366aa513" />
 
-⚙️ How to Run
+---
 
-Clone or Download the repository:
+## ⚙️ How to Run
 
-git clone https://github.com/your-username/kids-school-website.git
+1. **Clone or Download** the repository:
 
-
-Open the project folder in your code editor.
-
-Double-click index.html or open it in your browser.
+   ```bash
+   git clone https://github.com/your-username/kids-school-website.git
+   ```
+2. **Open** the project folder in your code editor.
+3. **Double-click** `index.html` or open it in your browser.
 
 That’s it — no setup or dependencies needed!
 
-🧑‍🎓 Future Enhancements
+---
 
-Add JavaScript for dynamic navbar toggle
+## 🧑‍🎓 Future Enhancements
 
-Include carousel/slider for curriculum section
+* Add **JavaScript** for dynamic navbar toggle
+* Include **carousel/slider** for curriculum section
+* Connect to a **backend system** for real admissions and stories updates
 
-Connect to a backend system for real admissions and stories updates
+---
 
-👩‍💻 Author
+## 👩‍💻 Author
 
-👤 Jonathan George Blaize Purification
+**👤 Jonathan George Blaize Purification**
+
+---
+
+## 🪪 License
+
+This project is open-source and available for **personal or educational use**.
 
 
-🪪 License
-
-This project is open-source and available for personal or educational use.
