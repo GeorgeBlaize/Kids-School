@@ -29,6 +29,8 @@ HTML5	Structure and content
 CSS3	Styling, layout, and responsiveness
 Flexbox & CSS Grid	Responsive and organized layout
 Custom Properties (CSS Variables)	Easy color and theme management
+
+
 🗂️ Folder Structure
 kids-school-website/
 │
