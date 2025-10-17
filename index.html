@@ -1,40 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <!-- Header Section -->
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kids School</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ===== HEADER / NAVBAR ===== -->
     <header>
-    <div class="wrap nav">
-      <div class="brand">
-        <div class="logo">KS</div>
-        <div class="site-title">
-          <div style="font-weight:800">Kids</div>
-          <div style="font-size:12px;color:#6b6b6b;margin-top:2px">Education</div>
+      <div class="container nav">
+        <div class="brand">
+          <img src="assets/logo.png" alt="Logo" />
+          <div class="brand-text">
+            <h3>Kids</h3>
+            <p>Education</p>
+          </div>
         </div>
-      </div>
 
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Facilities</a></li>
-          <li><a href="#">Admission</a></li>
-        </ul>
-      </nav>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Facilities</a></li>
+            <li><a href="#">Admission</a></li>
+          </ul>
+        </nav>
 
-      <div style="display:flex;align-items:center;gap:12px">
-        <a class="contact-btn" href="#">Contact</a>
+        <a href="#" class="btn-contact">Contact</a>
         <div class="hamburger">☰</div>
       </div>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero container">
+      <div class="hero-text">
+        <p class="tagline">Empowering</p>
+        <h1>
+          <span class="dark">students from small age</span>
+          <span class="blue">towards vision</span>
+        </h1>
+        <p class="desc">
+          With the courage, Confidence, Creativity and Compassion to make their
+          Unique Contribution in a Diverse and Dynamic World.
+        </p>
+        <a href="#" class="btn-enroll">Enroll Now</a>
+      </div>
+
+      <div class="hero-img">
+        <img src="assets/hero-kids.png" alt="Kid" />
+      </div>
+    </section>
+
+    <!-- ===== MARQUEE ===== -->
+    <div class="container">
+      <div class="marquee">
+        <p>
+          🎉 Welcome to Kids Education — Enrollment Open • New Term Starting
+          Soon • Visit the Admission Page for Details 🎓
+        </p>
+      </div>
     </div>
-  </header>
-    
-</body>
+
+    <!-- ===== STANDARD CURRICULUM ===== -->
+    <section class="curriculum">
+      <div class="container">
+        <h2>Standard Curriculum</h2>
+        <div class="cards">
+          <div class="card c1">
+            <img src="assets/kinder.png" alt="Kinder" />
+            <h3>Kinder (3-6) Years</h3>
+            <p>
+              Cum sociis natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mus dis parturient.
+            </p>
+            <a href="#">Read More</a>
+          </div>
+
+          <div class="card c2">
+            <img src="assets/elementary.png" alt="Elementary" />
+            <h3>Elementary School</h3>
+            <p>
+              Cum sociis natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mus dis parturient.
+            </p>
+            <a href="#">Read More</a>
+          </div>
+
+          <div class="card c3">
+            <img src="assets/middle.png" alt="Middle" />
+            <h3>Middle (10-16) Years</h3>
+            <p>
+              Cum sociis natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mus dis parturient.
+            </p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+
+        <div class="arrows">
+          <div class="arrow">‹</div>
+          <div class="arrow">›</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== OUR STORIES ===== -->
+    <section class="stories">
+      <div class="container">
+        <h2>Our Stories</h2>
+
+        <div class="stories-wrap">
+          <div class="featured-story">
+            <img src="assets/story-1.png" alt="Story" />
+            <div class="story-info">
+              <span class="date blue">November 19, 2019</span>
+              <h3>A fun toddler coloring training on classroom</h3>
+              <p>
+                Beautiful branding for changes by Never Now in Australia.
+                Changes is a platform for open discussion in an inclusive and
+                collaborative environment.
+              </p>
+            </div>
+          </div>
+
+          <div class="story-grid">
+            <div class="story-card">
+              <img src="assets/story-2.png" alt="" />
+              <span class="date blue">November 19, 2019</span>
+              <h4>Find out if a school fits the family's needs</h4>
+            </div>
+
+            <div class="story-card">
+              <img src="assets/story-3.png" alt="" />
+              <span class="date blue">November 19, 2019</span>
+              <h4>Summer math & literacy centres for kids</h4>
+            </div>
+
+            <div class="story-card">
+              <img src="assets/story-4.png" alt="" />
+              <span class="date green">September 10, 2019</span>
+              <h4>
+                Classroom management techniques for new tutors
+              </h4>
+            </div>
+
+            <div class="story-card">
+              <img src="assets/story-5.png" alt="" />
+              <span class="date purple">July 19, 2019</span>
+              <h4>Conversation rhymes improve kids listening</h4>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="btn-view">View All</a>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <div class="container footer-wrap">
+        <div class="footer-about">
+          <img src="assets/logo.png" alt="Logo" />
+          <h3>Kids Education</h3>
+          <p>
+            Pizza ipsum dolor meat lovers buffalo. Deep dolor roll melted bacon
+            Bianca pan bacon pineapple Aussie.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4>About School</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Facilities</a></li>
+            <li><a href="#">Admission</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h4>Keep In Touch</h4>
+          <div class="social-icons">
+            <a href="#"><img src="assets/fb.png" alt="Facebook" /></a>
+            <a href="#"><img src="assets/dribble.png" alt="Dribble" /></a>
+            <a href="#"><img src="assets/twitter.png" alt="Twitter" /></a>
+            <a href="#"><img src="assets/google+.png" alt="Google" /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
