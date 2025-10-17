@@ -15,6 +15,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
+  background-image: url(assets/bg.png);
 }
 
 img {
