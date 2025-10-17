@@ -150,17 +150,17 @@ nav a {
 }
 
 .hero-img {
-  background: linear-gradient(90deg, var(--blue) 40%, var(--accent) 40%);
+  
   border-radius: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+  overflow: hidden; 
 }
 
 .hero-img img {
   width: 80%;
-  transform: translateY(6%);
+  transform: translateY(1%);
 }
 
 /* ===== MARQUEE ===== */
