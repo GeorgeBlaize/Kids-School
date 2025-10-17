@@ -105,7 +105,9 @@ The website is fully responsive and optimized for:
 🖼️ Preview
 Desktop View	Mobile View
 
-	
+	<img width="2490" height="5326" alt="georgeblaize github io_Kids-School_ Desktop" src="https://github.com/user-attachments/assets/77ac9b3f-fdbf-40df-b0ad-7751eff5dc23" />
+
+<img width="892" height="8372" alt="georgeblaize github io_Kids-School_Mobile" src="https://github.com/user-attachments/assets/0987c552-b910-4e8e-b873-08c3366aa513" />
 
 (Replace with actual screenshots if available.)
 
