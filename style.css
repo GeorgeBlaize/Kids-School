@@ -84,6 +84,22 @@ nav a {
   font-size: 26px;
 }
 
+#home{
+    color: var(--accent);
+}
+
+#about{
+    color: var(--blue);
+}
+
+#facilities{
+  color: var(--blue);
+}
+
+#admission{
+  color: var(--purple);
+}
+
 /* ===== HERO ===== */
 .hero {
   display: grid;
@@ -111,6 +127,7 @@ nav a {
 
 .tagline {
   color: var(--accent);
+  font-size: 40px;
   font-weight: 800;
   margin: 0;
 }
